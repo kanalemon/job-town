@@ -12,5 +12,5 @@ class User < ApplicationRecord
     validates :age
     validates :gender
     validates :career
-
+  end
 end

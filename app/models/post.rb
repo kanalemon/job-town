@@ -10,4 +10,5 @@ class Post < ApplicationRecord
     validates :occupation
     validates :description
     validates :skill
+  end
 end
