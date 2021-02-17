@@ -1,10 +1,12 @@
 <div class="contents row">
+  <div class="contents box">
+    <%= image_tag "1036531_s.jpg", class:"topimg" %>
+  </div>
   <div class="post">
   <h1>投稿一覧</h1>
   <% @posts.each do |post| %>
-      <p><%= post.campany %></p>
-      <span class="name">
-        <%= post.department %>
+    <%= post.user.nickname %>さん<br>
+    <%= post.campany %> / <%= post.department %>
       </span>
     </div>
   <% end %>

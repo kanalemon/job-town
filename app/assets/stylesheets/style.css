@@ -1067,3 +1067,16 @@ footer p {
   font-size: 12px;
   font-weight: bold;
 }
+
+.topimg {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.post h1{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #666666;
+}
